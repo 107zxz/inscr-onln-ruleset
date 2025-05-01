@@ -15,48 +15,160 @@
     "cards": [
         {
             "name": "Starvation",
-            "sigils": ["Repulsive"],
             "attack": 1,
             "health": 1,
+            "sigils": ["Repulsive"],
             "banned": true
         },
         {
             "name": "Greater Smoke",
-            "sigils": ["Bone King"],
             "attack": 1,
             "health": 3,
-            "banned": true,
+            "sigils": ["Bone King"],
             "rare": true,
+            "banned": true,
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
         {
-            "name": "Adder",
-            "sigils": ["Touch of Death"],
-            "attack": 1,
-            "health": 1,
-            "blood_cost": 1
-        },
-        {
-            "name": "Amalgam",
-            "sigils": ["Amalgamation"],
+            "name": "Acid Squirrel",
             "attack": 0,
             "health": 1,
-            "rare": true,
-            "blood_cost": 2
+            "sigils": ["Reconstitute", "Boneless"],
+            "banned": true,
+            "description": "Card and art by Mark.\nThe most broken card, hopefully no longer."
         },
         {
-            "name": "Bat",
-            "sigils": ["Airborne"],
-            "attack": 2,
+            "name": "Bleene's Mox",
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Blue Mox", "Green Mox"],
+            "nosac": true,
+            "rare": true
+        },
+        {
+            "name": "Bone Heap",
+            "attack": 0,
             "health": 1,
-            "bone_cost": 4
+            "sigils": ["Enlarge (3)"],
+            "active": true,
+            "rare": true
+        },
+        {
+            "name": "Emerald Mox",
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Green Mox"],
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Geck",
+            "attack": 1,
+            "health": 1,
+            "rare": true,
+            "banned": true,
+            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
+        },
+        {
+            "name": "Golden Pelt",
+            "attack": 0,
+            "health": 3,
+            "rare": true,
+            "nosac": true
+        },
+        {
+            "name": "Goranj's Mox",
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Green Mox", "Orange Mox"],
+            "rare": true,
+            "nosac": true
+        },
+        {
+            "name": "Mage Pupil",
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Gem Dependant"]
+        },
+        {
+            "name": "Magnus Mox",
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Great Mox"],
+            "rare": true,
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Orlu's Mox",
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Orange Mox", "Blue Mox"],
+            "rare": true,
+            "nosac": true
+        },
+        {
+            "name": "Rabbit",
+            "attack": 0,
+            "health": 1
+        },
+        {
+            "name": "Rabbit Pelt",
+            "attack": 0,
+            "health": 1,
+            "nosac": true
+        },
+        {
+            "name": "Sapphire Mox",
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Blue Mox"],
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Tomb Robber",
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Disentomb (Corpses)"],
+            "active": true,
+            "rare": true,
+            "description": "Note: Withered corpses have the Boneless sigil and will not drop bones.This change was made to prevent multiple infinite combos involving Tomb Robber."
+        },
+        {
+            "name": "Withered Corpse",
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Brittle", "Boneless"],
+            "banned": true
+        },
+        {
+            "name": "Wolf Pelt",
+            "attack": 0,
+            "health": 2,
+            "nosac": true
+        },
+        {
+            "name": "Adder",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Touch of Death"]
+        },
+        {
+            "name": "Animox",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Blue Mox", "Sprinter"],
+            "description": "Custom card by SYNTHIA_2000"
         },
         {
             "name": "Beaver",
-            "sigils": ["Dam Builder"],
+            "blood_cost": 1,
             "attack": 1,
             "health": 2,
-            "blood_cost": 1
+            "sigils": ["Dam Builder"]
         },
         {
             "name": "Dam",
@@ -67,85 +179,426 @@
             "banned": true
         },
         {
-            "name": "Bee",
-            "sigils": ["Airborne"],
-            "attack": 1,
-            "health": 1,
-            "banned": true
-        },
-        {
             "name": "Beehive",
-            "sigils": ["Bees Within", "Mighty Leap"],
+            "blood_cost": 1,
             "attack": 0,
             "health": 3,
-            "blood_cost": 1
+            "sigils": ["Bees Within", "Mighty Leap"]
+        },
+        {
+            "name": "Bee",
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Airborne"],
+            "banned": true
         },
         {
             "name": "Black Goat",
+            "blood_cost": 1,
             "attack": 0,
             "health": 1,
             "sigils": ["Worthy Sacrifice"],
-            "blood_cost": 1,
             "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
         },
         {
-            "name": "Bloodhound",
-            "sigils": ["Guardian"],
-            "attack": 2,
-            "health": 3,
-            "blood_cost": 2
-        },
-        {
             "name": "Bullfrog",
-            "sigils": ["Mighty Leap"],
+            "blood_cost": 1,
             "attack": 1,
             "health": 3,
-            "blood_cost": 1
+            "sigils": ["Mighty Leap"]
         },
         {
             "name": "Burrowing Trap",
-            "sigils": ["Burrower", "Steel Trap"],
+            "blood_cost": 1,
             "attack": 0,
             "health": 4,
-            "nosac": true,
-            "blood_cost": 1,
-            "rare": true
+            "sigils": ["Burrower", "Steel Trap"],
+            "rare": true,
+            "nosac": true
         },
         {
             "name": "Cat",
-            "sigils": ["Many Lives"],
+            "blood_cost": 1,
             "attack": 0,
             "health": 1,
-            "blood_cost": 1
+            "sigils": ["Many Lives"]
         },
         {
             "name": "Undead Cat",
+            "blood_cost": 1,
             "attack": 3,
             "health": 6,
-            "blood_cost": 1,
             "banned": true
         },
         {
-            "name": "Cockroach",
+            "name": "Dire Wolf Pup",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Bone Digger", "Fledgling 2"],
+            "evolution": "Dire Wolf"
+        },
+        {
+            "name": "Elk Fawn",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Sprinter", "Fledgling"],
+            "evolution": "Elk"
+        },
+        {
+            "name": "Flying Ant",
+            "blood_cost": 1,
+            "attack": -1,
+            "atkspecial": "ant",
+            "health": 1,
+            "sigils": ["Airborne"]
+        },
+        {
+            "name": "Great Kraken",
+            "blood_cost": 1,
             "attack": 1,
             "health": 1,
-            "sigils": ["Unkillable"],
-            "bone_cost": 4,
+            "sigils": ["Tentacle"],
+            "rare": true,
+            "description": "Note: This card's effect was changed due to it sucking."
+        },
+        {
+            "name": "Bell Tentacle",
+            "blood_cost": 2,
+            "attack": 0,
+            "atkspecial": "Bell",
+            "health": 3,
+            "sigils": ["Tentacle"],
+            "banned": true
+        },
+        {
+            "name": "Hand Tentacle",
+            "blood_cost": 1,
+            "attack": 0,
+            "atkspecial": "Hand",
+            "health": 1,
+            "sigils": ["Tentacle"],
+            "banned": true
+        },
+        {
+            "name": "Mirror Tentacle",
+            "blood_cost": 1,
+            "attack": 0,
+            "atkspecial": "mirror",
+            "health": 3,
+            "sigils": ["Tentacle"],
+            "banned": true
+        },
+        {
+            "name": "Grizzly Cub",
+            "blood_cost": 1,
+            "attack": 2,
+            "health": 1,
+            "sigils": ["Fledgling 2"],
+            "evolution": "Grizzly",
+            "description": "Custom card by Limabean.\nCard art by syntaxevasion"
+        },
+        {
+            "name": "Hrokkall",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Waterborne", "Battery Bearer"],
+            "rare": true
+        },
+        {
+            "name": "Kingfisher",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Airborne", "Waterborne"]
+        },
+        {
+            "name": "Mantis",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Bifurcated Strike"]
+        },
+        {
+            "name": "Mantis God",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Trifurcated Strike"],
+            "rare": true
+        },
+        {
+            "name": "Mole",
+            "blood_cost": 1,
+            "attack": 0,
+            "health": 4,
+            "sigils": ["Burrower"]
+        },
+        {
+            "name": "Mole Man",
+            "blood_cost": 1,
+            "attack": 0,
+            "health": 6,
+            "sigils": ["Burrower", "Mighty Leap"],
+            "rare": true
+        },
+        {
+            "name": "Porcupine",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Sharp Quills"],
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
         {
-            "name": "Corpse Maggots",
-            "sigils": ["Corpse Eater"],
+            "name": "Raccoon",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Scavenger"]
+        },
+        {
+            "name": "Raven Egg",
+            "blood_cost": 1,
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Fledgling"],
+            "evolution": "Raven"
+        },
+        {
+            "name": "River Snapper",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 6,
+            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+        },
+        {
+            "name": "Sparrow",
+            "blood_cost": 1,
             "attack": 1,
             "health": 2,
-            "bone_cost": 4
+            "sigils": ["Airborne"],
+            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+        },
+        {
+            "name": "Squirrel Ball",
+            "blood_cost": 1,
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Squirrel Shedder"]
+        },
+        {
+            "name": "Squirrel",
+            "attack": 0,
+            "health": 1,
+            "banned": true
+        },
+        {
+            "name": "Stoat",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 3,
+            "description": "Note: Health was increased to 3 to make it better than Bullfrog in at least one way. Poewer crept by River Snapper."
+        },
+        {
+            "name": "Strange Frog",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Mighty Leap", "Frozen Away"],
+            "evolution": "Leaping Trap",
+            "nosac": true,
+            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+        },
+        {
+            "name": "Leaping Trap",
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Mighty Leap", "Steel Trap"],
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Strange Larva",
+            "blood_cost": 1,
+            "attack": 0,
+            "health": 3,
+            "sigils": ["Fledgling"],
+            "evolution": "Strange Pupa",
+            "rare": true,
+            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+        },
+        {
+            "name": "Strange Pupa",
+            "blood_cost": 1,
+            "attack": 0,
+            "health": 3,
+            "sigils": ["Fledgling"],
+            "evolution": "Mothman",
+            "rare": true,
+            "banned": true
+        },
+        {
+            "name": "Mothman",
+            "blood_cost": 1,
+            "attack": 7,
+            "health": 3,
+            "sigils": ["Airborne"],
+            "rare": true,
+            "banned": true
+        },
+        {
+            "name": "Warren",
+            "blood_cost": 1,
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Rabbit Hole"]
+        },
+        {
+            "name": "Wolf Cub",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Fledgling"],
+            "evolution": "Wolf"
+        },
+        {
+            "name": "Worker Ant",
+            "blood_cost": 1,
+            "attack": -1,
+            "atkspecial": "ant",
+            "health": 2
+        },
+        {
+            "name": "Amalgam",
+            "blood_cost": 2,
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Amalgamation"],
+            "rare": true
+        },
+        {
+            "name": "Ant Queen",
+            "blood_cost": 2,
+            "attack": -1,
+            "atkspecial": "ant",
+            "health": 3,
+            "sigils": ["Ant Spawner"]
+        },
+        {
+            "name": "Bloodhound",
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 3,
+            "sigils": ["Guardian"]
+        },
+        {
+            "name": "Elk",
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 4,
+            "sigils": ["Sprinter"]
+        },
+        {
+            "name": "Field Mice",
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 2,
+            "sigils": ["Fecundity (Kaycee)"]
+        },
+        {
+            "name": "Fox",
+            "blood_cost": 2,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Sprinter", "Side Hustle"],
+            "description": "Custom card by FishGuy101.\nCard and sigil art by syntaxevasion"
+        },
+        {
+            "name": "Hawk",
+            "blood_cost": 2,
+            "attack": 3,
+            "health": 1,
+            "sigils": ["Airborne"]
+        },
+        {
+            "name": "Magpie",
+            "blood_cost": 2,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Airborne", "Hoarder"],
+            "rare": true,
+            "description": "This card was unused in act 2, but had art."
+        },
+        {
+            "name": "Mole Seaman",
+            "blood_cost": 2,
+            "attack": 1,
+            "health": 8,
+            "sigils": ["Mighty Leap", "Burrower"],
+            "rare": true
+        },
+        {
+            "name": "Mud Turtle",
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 2,
+            "sigils": ["Armored"]
+        },
+        {
+            "name": "Ouroboros",
+            "blood_cost": 2,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Reconstitute"],
+            "rare": true,
+            "description": "This card gains 1 power and 1 health each time it perishes."
+        },
+        {
+            "name": "Pronghorn",
+            "blood_cost": 2,
+            "attack": 1,
+            "health": 3,
+            "sigils": ["Bifurcated Strike", "Sprinter"],
+            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+        },
+        {
+            "name": "Rat King",
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 1,
+            "sigils": ["Bone King"]
+        },
+        {
+            "name": "Raven",
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 3,
+            "sigils": ["Airborne"]
+        },
+        {
+            "name": "Salmon",
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 2,
+            "sigils": ["Waterborne", "Sprinter"]
+        },
+        {
+            "name": "Spore Mice",
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 2,
+            "sigils": ["Fecundity (Kaycee)", "Fecundity (Kaycee)"],
+            "banned": true
         },
         {
             "name": "The Daus",
-            "sigils": ["Bellist"],
+            "blood_cost": 2,
             "attack": 2,
             "health": 2,
-            "blood_cost": 2,
+            "sigils": ["Bellist"],
             "rare": true
         },
         {
@@ -157,817 +610,442 @@
             "banned": true
         },
         {
-            "name": "Dire Wolf Pup",
-            "attack": 1,
-            "health": 2,
-            "sigils": ["Bone Digger", "Fledgling 2"],
-            "blood_cost": 1,
-            "evolution": "Dire Wolf"
+            "name": "Wolf",
+            "blood_cost": 2,
+            "attack": 3,
+            "health": 2
+        },
+        {
+            "name": "Bullet Ant",
+            "blood_cost": 3,
+            "attack": -1,
+            "atkspecial": "ant",
+            "health": 3,
+            "sigils": ["Double Strike"],
+            "description": "Custom card by FishGuy101. Card art by Mark"
         },
         {
             "name": "Dire Wolf",
+            "blood_cost": 3,
             "attack": 2,
             "health": 5,
-            "sigils": ["Double Strike"],
-            "blood_cost": 3
-        },
-        {
-            "name": "Elk",
-            "sigils": ["Sprinter"],
-            "attack": 2,
-            "health": 4,
-            "blood_cost": 2
-        },
-        {
-            "name": "Elk Fawn",
-            "sigils": ["Sprinter", "Fledgling"],
-            "attack": 1,
-            "health": 2,
-            "blood_cost": 1,
-            "evolution": "Elk"
-        },
-        {
-            "name": "Field Mice",
-            "sigils": ["Fecundity (Kaycee)"],
-            "attack": 2,
-            "health": 2,
-            "blood_cost": 2
-        },
-        {
-            "name": "Spore Mice",
-            "sigils": ["Fecundity (Kaycee)", "Fecundity (Kaycee)"],
-            "attack": 2,
-            "health": 2,
-            "blood_cost": 2,
-            "banned": true
-        },
-        {
-            "name": "Hawk",
-            "sigils": ["Airborne"],
-            "attack": 3,
-            "health": 1,
-            "blood_cost": 2
-        },
-        {
-            "name": "Hrokkall",
-            "sigils": ["Waterborne", "Battery Bearer"],
-            "attack": 1,
-            "health": 1,
-            "blood_cost": 1,
-            "rare": true
-        },
-        {
-            "name": "Rat King",
-            "sigils": ["Bone King"],
-            "attack": 2,
-            "health": 1,
-            "blood_cost": 2
-        },
-        {
-            "name": "Raven Egg",
-            "sigils": ["Fledgling"],
-            "attack": 0,
-            "health": 2,
-            "evolution": "Raven",
-            "blood_cost": 1
-        },
-        {
-            "name": "Kingfisher",
-            "sigils": ["Airborne", "Waterborne"],
-            "attack": 1,
-            "health": 1,
-            "blood_cost": 1
-        },
-        {
-            "name": "Great Kraken",
-            "sigils": ["Tentacle"],
-            "attack": 1,
-            "health": 1,
-            "blood_cost": 1,
-            "rare": true,
-            "description": "Note: This card's effect was changed due to it sucking."
-        },
-        {
-            "name": "Long Elk",
-            "attack": 1,
-            "health": 2,
-            "sigils": ["Sprinter", "Touch of Death"],
-            "sheds": "Vertebrae",
-            "bone_cost": 4,
-            "rare": true
-        },
-        {
-            "name": "Vertebrae",
-            "attack": 0,
-            "health": 1,
-            "banned": true
-        },
-        {
-            "name": "Alpha",
-            "attack": 1,
-            "health": 2,
-            "sigils": ["Leader"],
-            "bone_cost": 5
-        },
-        {
-            "name": "Magpie",
-            "sigils": ["Airborne", "Hoarder"],
-            "attack": 1,
-            "health": 1,
-            "blood_cost": 2,
-            "description": "This card was unused in act 2, but had art.",
-            "rare": true
-        },
-        {
-            "name": "Mantis",
-            "sigils": ["Bifurcated Strike"],
-            "attack": 1,
-            "health": 1,
-            "blood_cost": 1
-        },
-        {
-            "name": "Mantis God",
-            "sigils": ["Trifurcated Strike"],
-            "attack": 1,
-            "health": 1,
-            "blood_cost": 1,
-            "rare": true
-        },
-        {
-            "name": "Mole",
-            "sigils": ["Burrower"],
-            "attack": 0,
-            "health": 4,
-            "blood_cost": 1
-        },
-        {
-            "name": "Mole Man",
-            "sigils": ["Burrower", "Mighty Leap"],
-            "attack": 0,
-            "health": 6,
-            "blood_cost": 1,
-            "rare": true
-        },
-        {
-            "name": "Moose Buck",
-            "attack": 3,
-            "health": 7,
-            "sigils": ["Hefty"],
-            "blood_cost": 3,
-            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
-        },
-        {
-            "name": "Mud Turtle",
-            "sigils": ["Armored"],
-            "attack": 2,
-            "health": 2,
-            "blood_cost": 2
-        },
-        {
-            "name": "Opossum",
-            "attack": 1,
-            "health": 1,
-            "bone_cost": 2
-        },
-        {
-            "name": "Ouroboros",
-            "sigils": ["Reconstitute"],
-            "attack": 1,
-            "health": 1,
-            "blood_cost": 2,
-            "rare": true,
-            "description": "This card gains 1 power and 1 health each time it perishes."
-        },
-        {
-            "name": "Rabbit",
-            "attack": 0,
-            "health": 1
-        },
-        {
-            "name": "Skunk",
-            "attack": 0,
-            "health": 3,
-            "bone_cost": 2,
-            "sigils": ["Stinky"],
-            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
-        },
-        {
-            "name": "Coyote",
-            "attack": 2,
-            "health": 1,
-            "bone_cost": 4
+            "sigils": ["Double Strike"]
         },
         {
             "name": "Great White",
+            "blood_cost": 3,
             "attack": 4,
             "health": 2,
-            "blood_cost": 3,
             "sigils": ["Waterborne"],
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
         {
-            "name": "Grizzly Cub",
-            "sigils": ["Fledgling 2"],
-            "attack": 2,
-            "health": 1,
-            "blood_cost": 1,
-            "evolution": "Grizzly",
-            "description": "Custom card by Limabean.\nCard art by syntaxevasion"
-        },
-        {
             "name": "Grizzly",
+            "blood_cost": 3,
             "attack": 4,
-            "health": 6,
-            "blood_cost": 3
+            "health": 6
         },
         {
-            "name": "Porcupine",
-            "attack": 1,
-            "health": 2,
-            "sigils": ["Sharp Quills"],
-            "blood_cost": 1,
-            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
-        },
-        {
-            "name": "Pronghorn",
-            "attack": 1,
-            "health": 3,
-            "sigils": ["Bifurcated Strike", "Sprinter"],
-            "blood_cost": 2,
-            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
-        },
-        {
-            "name": "Rattler",
+            "name": "Moose Buck",
+            "blood_cost": 3,
             "attack": 3,
-            "health": 1,
-            "bone_cost": 6,
-            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
-        },
-        {
-            "name": "Raven",
-            "sigils": ["Airborne"],
-            "attack": 2,
-            "health": 3,
-            "blood_cost": 2
-        },
-        {
-            "name": "Salmon",
-            "sigils": ["Waterborne", "Sprinter"],
-            "attack": 2,
-            "health": 2,
-            "blood_cost": 2
-        },
-        {
-            "name": "River Snapper",
-            "attack": 1,
-            "health": 6,
-            "blood_cost": 1,
-            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
-        },
-        {
-            "name": "Sparrow",
-            "attack": 1,
-            "health": 2,
-            "sigils": ["Airborne"],
-            "blood_cost": 1,
-            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
-        },
-        {
-            "name": "Strange Frog",
-            "sigils": ["Mighty Leap", "Frozen Away"],
-            "attack": 1,
-            "health": 2,
-            "blood_cost": 1,
-            "evolution": "Leaping Trap",
-            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion.",
-            "nosac": true
-        },
-        {
-            "name": "Leaping Trap",
-            "sigils": ["Mighty Leap", "Steel Trap"],
-            "attack": 0,
-            "health": 1,
-            "nosac": true,
-            "banned": true
-        },
-        {
-            "name": "Rabbit Pelt",
-            "attack": 0,
-            "health": 1,
-            "nosac": true
-        },
-        {
-            "name": "Wolf Pelt",
-            "attack": 0,
-            "health": 2,
-            "nosac": true
-        },
-        {
-            "name": "Golden Pelt",
-            "attack": 0,
-            "health": 3,
-            "nosac": true,
-            "rare": true
+            "health": 7,
+            "sigils": ["Hefty"],
+            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
         },
         {
             "name": "Pelt Lice",
+            "blood_cost": 4,
             "attack": 1,
             "health": 1,
-            "blood_cost": 4,
             "sigils": ["Double Strike"],
             "banned": true
-        },
-        {
-            "name": "Strange Larva",
-            "sigils": ["Fledgling"],
-            "attack": 0,
-            "health": 3,
-            "blood_cost": 1,
-            "evolution": "Strange Pupa",
-            "rare": true,
-            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
-        },
-        {
-            "name": "Strange Pupa",
-            "sigils": ["Fledgling"],
-            "attack": 0,
-            "health": 3,
-            "blood_cost": 1,
-            "banned": true,
-            "evolution": "Mothman",
-            "rare": true
-        },
-        {
-            "name": "Mothman",
-            "sigils": ["Airborne"],
-            "attack": 7,
-            "health": 3,
-            "blood_cost": 1,
-            "banned": true,
-            "rare": true
-        },
-        {
-            "name": "Turkey Vulture",
-            "attack": 3,
-            "health": 3,
-            "sigils": ["Airborne"],
-            "bone_cost": 8,
-            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
-        },
-        {
-            "name": "Bell Tentacle",
-            "sigils": ["Tentacle"],
-            "attack": 0,
-            "health": 3,
-            "blood_cost": 2,
-            "banned": true,
-            "atkspecial": "Bell"
-        },
-        {
-            "name": "Hand Tentacle",
-            "sigils": ["Tentacle"],
-            "attack": 0,
-            "health": 1,
-            "blood_cost": 1,
-            "banned": true,
-            "atkspecial": "Hand"
-        },
-        {
-            "name": "Mirror Tentacle",
-            "sigils": ["Tentacle"],
-            "attack": 0,
-            "health": 3,
-            "blood_cost": 1,
-            "atkspecial": "mirror",
-            "banned": true
-        },
-        {
-            "name": "Raccoon",
-            "attack": 1,
-            "health": 1,
-            "sigils": ["Scavenger"],
-            "blood_cost": 1
-        },
-        {
-            "name": "Squirrel",
-            "attack": 0,
-            "health": 1,
-            "banned": true
-        },
-        {
-            "name": "Squirrel Ball",
-            "sigils": ["Squirrel Shedder"],
-            "attack": 0,
-            "health": 1,
-            "blood_cost": 1
-        },
-        {
-            "name": "Stoat",
-            "attack": 1,
-            "health": 3,
-            "blood_cost": 1,
-            "description": "Note: Health was increased to 3 to make it better than Bullfrog in at least one way. Bears a unique ability from Act 1."
         },
         {
             "name": "Urayuli",
+            "blood_cost": 4,
             "attack": 7,
             "health": 7,
-            "blood_cost": 4,
             "rare": true
         },
         {
-            "name": "Warren",
-            "sigils": ["Rabbit Hole"],
+            "name": "Bomb Latcher",
+            "energy_cost": 1,
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Bomb Latch"],
+            "banned": true
+        },
+        {
+            "name": "Conductive Vessel",
+            "energy_cost": 1,
             "attack": 0,
             "health": 2,
-            "blood_cost": 1
+            "conduit": true,
+            "nosac": true,
+            "banned": true
         },
         {
-            "name": "Wolf",
-            "attack": 3,
-            "health": 2,
-            "blood_cost": 2
-        },
-        {
-            "name": "Wolf Cub",
-            "sigils": ["Fledgling"],
-            "attack": 1,
-            "health": 2,
-            "blood_cost": 1,
-            "evolution": "Wolf"
-        },
-        {
-            "name": "Fox",
-            "sigils": ["Sprinter", "Side Hustle"],
-            "attack": 1,
-            "health": 2,
-            "blood_cost": 2,
-            "description": "Custom card by FishGuy101.\nCard and sigil art by syntaxevasion"
-        },
-        {
-            "name": "Worker Ant",
-            "attack": -1,
-            "health": 2,
-            "atkspecial": "ant",
-            "blood_cost": 1
-        },
-        {
-            "name": "Ant Queen",
-            "attack": -1,
+            "name": "Empty Vessel",
+            "energy_cost": 1,
+            "attack": 0,
             "health": 3,
-            "atkspecial": "ant",
-            "blood_cost": 2,
-            "sigils": ["Ant Spawner"]
-        },
-        {
-            "name": "Flying Ant",
-            "attack": -1,
-            "health": 1,
-            "atkspecial": "ant",
-            "blood_cost": 1,
-            "sigils": ["Airborne"]
-        },
-        {
-            "name": "Bullet Ant",
-            "attack": -1,
-            "health": 3,
-            "atkspecial": "ant",
-            "blood_cost": 3,
-            "sigils": ["Double Strike"],
-            "description": "Custom card by FishGuy101.\nCard art by Mark"
-        },
-        {
-            "name": "Mole Seaman",
-            "attack": 1,
-            "health": 8,
-            "blood_cost": 2,
-            "sigils": ["Mighty Leap", "Burrower"],
-            "rare": true
-        },
-        {
-            "name": "Curve Hopper",
-            "attack": 2,
-            "health": 3,
-            "energy_cost": 4,
-            "rare": true
-        },
-        {
-            "name": "Automaton",
-            "attack": 1,
-            "health": 1,
-            "energy_cost": 2,
-            "description": "Note: The energy cost of this card was reduced to make it less terrible."
-        },
-        {
-            "name": "Alarmbot",
-            "sigils": ["Annoying"],
-            "attack": 2,
-            "health": 1,
-            "energy_cost": 3
+            "nosac": true,
+            "banned": true
         },
         {
             "name": "Energy Bot",
-            "sigils": ["Battery Bearer"],
+            "energy_cost": 1,
             "attack": 0,
             "health": 1,
-            "energy_cost": 1
+            "sigils": ["Battery Bearer"]
         },
         {
-            "name": "Bolthound",
-            "sigils": ["Guardian"],
+            "name": "Junkbot",
+            "energy_cost": 1,
             "attack": 2,
-            "health": 3,
-            "energy_cost": 6,
-            "description": "Note: Health was increased to 3 to make it equivalent to other \"Hound\" cards."
+            "health": 1,
+            "sigils": ["Depleting", "Brittle"],
+            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue."
+        },
+        {
+            "name": "Mirror Bot",
+            "energy_cost": 1,
+            "attack": 0,
+            "atkspecial": "mirror",
+            "health": 1
+        },
+        {
+            "name": "Null Conduit",
+            "energy_cost": 1,
+            "attack": 0,
+            "health": 1,
+            "conduit": true
+        },
+        {
+            "name": "Sentry Drone",
+            "energy_cost": 1,
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Sentry"],
+            "description": "Note: The sentry sigil now triggers when this card is pushed by another card."
+        },
+        {
+            "name": "Sentry Spore",
+            "energy_cost": 1,
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Sentry", "Sentry"],
+            "banned": true
+        },
+        {
+            "name": "49er",
+            "energy_cost": 2,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Sprinter"]
+        },
+        {
+            "name": "Automaton",
+            "energy_cost": 2,
+            "attack": 1,
+            "health": 1,
+            "description": "Note: The energy cost of this card was reduced to make it less terrible."
         },
         {
             "name": "Buff Conduit",
-            "sigils": ["Attack Conduit"],
+            "energy_cost": 2,
             "attack": 0,
             "health": 2,
-            "energy_cost": 2,
+            "sigils": ["Attack Conduit"],
             "conduit": true
         },
         {
             "name": "Busted 3D Printer",
+            "energy_cost": 2,
             "attack": 0,
             "health": 3,
-            "sigils": ["Vessel Printer"],
-            "energy_cost": 2
+            "sigils": ["Vessel Printer"]
         },
         {
-            "name": "Double Gunner",
-            "sigils": ["Bifurcated Strike"],
+            "name": "Contaminated Vessel",
+            "energy_cost": 2,
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Stinky"],
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Energized Vessel",
+            "energy_cost": 2,
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Battery Bearer"],
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Explode Bot",
+            "energy_cost": 2,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Detonator (5)"],
+            "nosac": true
+        },
+        {
+            "name": "Leaping Vessel",
+            "energy_cost": 2,
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Mighty Leap"],
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "M3atB0t",
+            "energy_cost": 2,
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Noble Sacrifice"]
+        },
+        {
+            "name": "Plasma Jimmy",
+            "energy_cost": 2,
+            "attack": 0,
+            "health": 3,
+            "sigils": ["Energy Gun"],
+            "active": true,
+            "rare": true
+        },
+        {
+            "name": "Shield Latcher",
+            "energy_cost": 2,
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Shield Latch"],
+            "banned": true
+        },
+        {
+            "name": "Splintered Vessel",
+            "energy_cost": 2,
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Sharp Quills"],
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Alarmbot",
+            "energy_cost": 3,
             "attack": 2,
             "health": 1,
-            "energy_cost": 6
+            "sigils": ["Annoying"]
+        },
+        {
+            "name": "Bloody Vessel",
+            "energy_cost": 3,
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Noble Sacrifice"],
+            "banned": true,
+            "description": "Note: Energy cost increased due to opponent not having enough time to build a board before bloody vessel is usable."
         },
         {
             "name": "Energy Conduit",
-            "sigils": ["Energy Conduit (+3)"],
+            "energy_cost": 3,
             "attack": 1,
             "health": 2,
-            "energy_cost": 3,
+            "sigils": ["Energy Conduit (+3)"],
             "conduit": true,
             "rare": true,
             "description": "Note: Effect was changed to prevent infinitely buffing stim mage."
         },
         {
-            "name": "Explode Bot",
-            "sigils": ["Detonator (5)"],
-            "attack": 1,
-            "health": 1,
-            "energy_cost": 2,
-            "nosac": true
-        },
-        {
             "name": "Factory Conduit",
-            "sigils": ["Spawn Conduit"],
+            "energy_cost": 3,
             "attack": 0,
             "health": 2,
-            "energy_cost": 3,
+            "sigils": ["Spawn Conduit"],
             "conduit": true
         },
         {
             "name": "Gamblobot",
-            "sigils": ["Power Dice (2)"],
+            "energy_cost": 3,
             "attack": 0,
             "health": 1,
-            "energy_cost": 3,
+            "sigils": ["Power Dice (2)"],
             "active": true,
             "description": "Note: The cost of this ability was increased to 2 energy due to this card being very strong for its cost."
         },
         {
-            "name": "GR1ZZ",
-            "sigils": ["Transformer"],
-            "attack": 0,
-            "health": 4,
-            "energy_cost": 4,
-            "evolution": "GR1ZZ (beast)"
+            "name": "Gem Detonator",
+            "energy_cost": 3,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Gem Detonator (5)"]
         },
         {
-            "name": "GR1ZZ (beast)",
-            "sigils": ["Transformer"],
-            "attack": 4,
-            "health": 4,
-            "energy_cost": 4,
-            "evolution": "GR1ZZ",
-            "banned": true
+            "name": "Gem Guardian",
+            "energy_cost": 3,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Gem Guardian"]
         },
         {
             "name": "Insectodrone",
-            "sigils": ["Airborne"],
+            "energy_cost": 3,
             "attack": 1,
             "health": 2,
-            "energy_cost": 3
-        },
-        {
-            "name": "Junkbot",
-            "sigils": ["Depleting", "Brittle"],
-            "attack": 2,
-            "health": 1,
-            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-            "energy_cost": 1
+            "sigils": ["Airborne"]
         },
         {
             "name": "L33pB0t",
-            "sigils": ["Mighty Leap"],
+            "energy_cost": 3,
             "attack": 1,
             "health": 2,
-            "energy_cost": 3
+            "sigils": ["Mighty Leap"]
         },
         {
-            "name": "M3atB0t",
-            "sigils": ["Noble Sacrifice"],
-            "attack": 0,
-            "health": 1,
-            "energy_cost": 2
-        },
-        {
-            "name": "49er",
-            "sigils": ["Sprinter"],
-            "attack": 1,
-            "health": 1,
-            "energy_cost": 2
-        },
-        {
-            "name": "No Moon",
-            "sigils": ["Depleting", "Omni Strike"],
-            "attack": 1,
-            "health": 2,
-            "rare": true,
-            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-            "energy_cost": 6
-        },
-        {
-            "name": "Null Conduit",
-            "attack": 0,
-            "health": 1,
-            "energy_cost": 1,
-            "conduit": true
-        },
-        {
-            "name": "Plasma Jimmy",
-            "sigils": ["Energy Gun"],
+            "name": "Mox Module",
+            "energy_cost": 3,
             "attack": 0,
             "health": 3,
-            "energy_cost": 2,
-            "rare": true,
-            "active": true
+            "sigils": ["Great Mox"],
+            "rare": true
         },
         {
-            "name": "Rustbucket",
-            "sigils": ["Depleting"],
-            "attack": 2,
-            "health": 2,
-            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-            "energy_cost": 4
-        },
-        {
-            "name": "Scrap Golem",
-            "sigils": ["Depleting", "Sharp Quills"],
-            "attack": 1,
-            "health": 3,
-            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-            "energy_cost": 3
-        },
-        {
-            "name": "Steel Mice",
-            "sigils": ["Fecundity (Kaycee)"],
-            "attack": 1,
-            "health": 1,
-            "energy_cost": 4,
-            "description": "Note: Fecundity (Kaycee) is nerfed as per Kaycee's Mod"
-        },
-        {
-            "name": "Sentry Drone",
-            "sigils": ["Sentry"],
-            "attack": 0,
-            "health": 1,
-            "energy_cost": 1,
-            "description": "Note: The sentry sigil now triggers when this card is pushed by another card."
-        },
-        {
-            "name": "Sentry Spore",
-            "sigils": ["Sentry", "Sentry"],
-            "attack": 0,
-            "health": 1,
-            "energy_cost": 1,
-            "banned": true
-        },
-        {
-            "name": "QU177",
-            "sigils": ["Transformer"],
-            "attack": 2,
-            "health": 2,
-            "energy_cost": 5,
-            "evolution": "QU177 (beast)"
-        },
-        {
-            "name": "QU177 (beast)",
-            "sigils": ["Transformer", "Sharp Quills"],
+            "name": "Mrs. Bomb",
+            "energy_cost": 3,
             "attack": 1,
             "health": 2,
-            "energy_cost": 5,
-            "evolution": "QU177",
-            "banned": true
+            "sigils": ["Bomb Spewer"],
+            "rare": true
         },
         {
             "name": "SON1A",
-            "sigils": ["Transformer"],
+            "energy_cost": 3,
             "attack": 1,
             "health": 2,
-            "energy_cost": 3,
+            "sigils": ["Transformer"],
             "evolution": "SON1A (beast)"
         },
         {
             "name": "SON1A (beast)",
-            "sigils": ["Transformer", "Airborne"],
+            "energy_cost": 3,
             "attack": 2,
             "health": 2,
-            "energy_cost": 3,
+            "sigils": ["Transformer", "Airborne"],
             "evolution": "SON1A",
             "banned": true
         },
         {
-            "name": "Mrs. Bomb",
-            "sigils": ["Bomb Spewer"],
-            "attack": 1,
-            "health": 2,
+            "name": "Scrap Golem",
             "energy_cost": 3,
+            "attack": 1,
+            "health": 3,
+            "sigils": ["Depleting", "Sharp Quills"],
+            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue."
+        },
+        {
+            "name": "Skel-E-Latcher",
+            "energy_cost": 3,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Brittle Latch"],
+            "banned": true
+        },
+        {
+            "name": "Sniper Bot",
+            "energy_cost": 3,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Sniper"]
+        },
+        {
+            "name": "Curve Hopper",
+            "energy_cost": 4,
+            "attack": 2,
+            "health": 3,
             "rare": true
         },
         {
-            "name": "Shutterbug",
-            "sigils": ["Touch of Death", "Sentry"],
+            "name": "GR1ZZ",
+            "energy_cost": 4,
+            "attack": 0,
+            "health": 4,
+            "sigils": ["Transformer"],
+            "evolution": "GR1ZZ (beast)"
+        },
+        {
+            "name": "GR1ZZ (beast)",
+            "energy_cost": 4,
+            "attack": 4,
+            "health": 4,
+            "sigils": ["Transformer"],
+            "evolution": "GR1ZZ",
+            "banned": true
+        },
+        {
+            "name": "Jukebot",
+            "energy_cost": 4,
+            "attack": 0,
+            "health": 3,
+            "sigils": ["Music Player"],
+            "rare": true,
+            "description": "Art and sigils by syntaxevasion"
+        },
+        {
+            "name": "Rustbucket",
+            "energy_cost": 4,
+            "attack": 2,
+            "health": 2,
+            "sigils": ["Depleting"],
+            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue."
+        },
+        {
+            "name": "Steel Mice",
+            "energy_cost": 4,
             "attack": 1,
             "health": 1,
+            "sigils": ["Fecundity (Kaycee)"],
+            "description": "Note: Fecundity (Kaycee) is nerfed as per Kaycee's Mod"
+        },
+        {
+            "name": "QU177",
             "energy_cost": 5,
+            "attack": 2,
+            "health": 2,
+            "sigils": ["Transformer"],
+            "evolution": "QU177 (beast)"
+        },
+        {
+            "name": "QU177 (beast)",
+            "energy_cost": 5,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Transformer", "Sharp Quills"],
+            "evolution": "QU177",
+            "banned": true
+        },
+        {
+            "name": "Shutterbug",
+            "energy_cost": 5,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Touch of Death", "Sentry"],
             "rare": true,
             "description": "Note: The sentry sigil now triggers when this card is pushed by another card."
         },
         {
-            "name": "Sniper Bot",
-            "sigils": ["Sniper"],
-            "attack": 1,
-            "health": 1,
-            "energy_cost": 3
-        },
-        {
-            "name": "Skel-E-Latcher",
-            "sigils": ["Brittle Latch"],
-            "attack": 1,
-            "health": 1,
-            "energy_cost": 3,
-            "banned": true
-        },
-        {
-            "name": "Shield Latcher",
-            "sigils": ["Shield Latch"],
-            "attack": 0,
-            "health": 1,
-            "energy_cost": 2,
-            "banned": true
-        },
-        {
-            "name": "Bomb Latcher",
-            "sigils": ["Bomb Latch"],
-            "attack": 0,
-            "health": 1,
-            "energy_cost": 1,
-            "banned": true
-        },
-        {
-            "name": "Steambot",
-            "attack": 3,
-            "health": 2,
-            "energy_cost": 6,
-            "description": "Note: This card's attack was increased to make it worth 6 energy."
-        },
-        {
-            "name": "Mox Module",
-            "sigils": ["Great Mox"],
-            "attack": 0,
-            "health": 3,
-            "energy_cost": 3,
-            "rare": true
-        },
-        {
-            "name": "Mirror Bot",
-            "energy_cost": 1,
-            "atkspecial": "mirror",
-            "attack": 0,
-            "health": 1
-        },
-        {
             "name": "Thick Droid",
+            "energy_cost": 5,
             "attack": 1,
             "health": 3,
-            "energy_cost": 5,
-            "description": "Damn Boi!",
             "sigils": ["Thick"],
             "left_half": "Thick",
-            "right_half": "Droid"
+            "right_half": "Droid",
+            "description": "Damn Boi!"
         },
         {
             "name": "Thick",
@@ -982,549 +1060,492 @@
             "banned": true
         },
         {
-            "name": "Jukebot",
-            "attack": 0,
+            "name": "Bolthound",
+            "energy_cost": 6,
+            "attack": 2,
             "health": 3,
-            "energy_cost": 4,
+            "sigils": ["Guardian"],
+            "description": "Note: Health was increased to 3 to make it equivalent to other \"Hound\" cards."
+        },
+        {
+            "name": "Double Gunner",
+            "energy_cost": 6,
+            "attack": 2,
+            "health": 1,
+            "sigils": ["Bifurcated Strike"]
+        },
+        {
+            "name": "Moon Shard",
+            "energy_cost": 6,
+            "attack": 0,
+            "health": 5,
+            "sigils": ["Mighty Leap", "Made of Stone"],
+            "nosac": false,
+            "banned": true,
+            "description": "Emits a pale white light. You feel as though it calls to its brethren."
+        },
+        {
+            "name": "The Moon",
+            "attack": 1,
+            "health": 40,
+            "sigils": ["Made of Stone"],
+            "banned": true
+        },
+        {
+            "name": "No Moon",
+            "energy_cost": 6,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Depleting", "Omni Strike"],
             "rare": true,
-            "sigils": ["Music Player"],
-            "description": "Art and sigils by syntaxevasion"
+            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue."
+        },
+        {
+            "name": "Steambot",
+            "energy_cost": 6,
+            "attack": 3,
+            "health": 2,
+            "description": "Note: This card's attack was increased to make it worth 6 energy."
+        },
+        {
+            "name": "Shambling Cairn",
+            "bone_cost": -1,
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Sprinter", "Bone Digger"],
+            "nosac": true,
+            "banned": true,
+            "description": "Custom card by Garf, zpan0317, and Me!"
         },
         {
             "name": "Draugr",
+            "bone_cost": 1,
+            "attack": 0,
+            "health": 1,
             "sigils": ["Frozen Away"],
-            "attack": 0,
-            "health": 1,
-            "bone_cost": 1,
-            "nosac": true,
-            "evolution": "Skeleton"
-        },
-        {
-            "name": "Banshee",
-            "sigils": ["Airborne"],
-            "attack": 1,
-            "health": 3,
-            "bone_cost": 3
-        },
-        {
-            "name": "Bonehound",
-            "sigils": ["Guardian"],
-            "attack": 2,
-            "health": 3,
-            "bone_cost": 7
-        },
-        {
-            "name": "Bone Lord's Horn",
-            "sigils": ["Bonehorn (1)"],
-            "attack": 1,
-            "health": 1,
-            "bone_cost": 3,
-            "rare": true,
-            "active": true,
-            "description": "Note: This card gives only 1 bone per 1 energy due to the previous effect being overpowered in combination with Bone Heap."
-        },
-        {
-            "name": "Bone Heap",
-            "sigils": ["Enlarge (3)"],
-            "attack": 0,
-            "health": 1,
-            "rare": true,
-            "active": true
-        },
-        {
-            "name": "Broken Obol 1",
-            "sigils": ["Sharp Quills"],
-            "attack": 0,
-            "health": 2,
-            "bone_cost": 3
-        },
-        {
-            "name": "Broken Obol 2",
-            "sigils": ["Bone King"],
-            "attack": 0,
-            "health": 2,
-            "bone_cost": 2
-        },
-        {
-            "name": "Dead Hand",
-            "sigils": ["Handy"],
-            "attack": 1,
-            "health": 1,
-            "bone_cost": 5,
-            "description": "Note: Was made common due to lack of use.\nThen rare again.",
-            "rare": true
-        },
-        {
-            "name": "Pharaoh's Pets",
-            "sigils": ["Worthy Sacrifice", "Many Lives"],
-            "attack": 0,
-            "health": 1,
-            "bone_cost": 6,
-            "rare": true,
-            "description": "Note: This card was made rare due to it's strength. This card will become a cat after its worthy sacrifice sigil is used.",
-            "evolution": "Cat"
-        },
-        {
-            "name": "Drowned Soul",
-            "sigils": ["Waterborne", "Touch of Death"],
-            "attack": 1,
-            "health": 1,
-            "bone_cost": 4,
-            "rare": true
-        },
-        {
-            "name": "The Walkers",
-            "sigils": ["Bone King"],
-            "attack": 1,
-            "health": 2,
-            "bone_cost": 4
-        },
-        {
-            "name": "Frank & Stein",
-            "attack": 2,
-            "health": 2,
-            "bone_cost": 5,
-            "conduit": true
-        },
-        {
-            "name": "Ghost Ship",
-            "sigils": ["Waterborne", "Skeleton Crew (Yarr)"],
-            "attack": 0,
-            "health": 1,
-            "bone_cost": 2
-        },
-        {
-            "name": "Gravedigger",
-            "sigils": ["Bone Digger"],
-            "attack": 0,
-            "health": 3,
-            "bone_cost": 1
-        },
-        {
-            "name": "Sporedigger",
-            "sigils": ["Bone Digger", "Bone Digger"],
-            "attack": 0,
-            "health": 3,
-            "bone_cost": 1,
-            "banned": true
-        },
-        {
-            "name": "Headless Horseman",
-            "sigils": ["Airborne", "Sprinter"],
-            "attack": 5,
-            "health": 5,
-            "bone_cost": 13,
-            "rare": true
-        },
-        {
-            "name": "Mummy Lord",
-            "attack": 3,
-            "health": 3,
-            "bone_cost": 8
-        },
-        {
-            "name": "Necromancer",
-            "sigils": ["Double Death"],
-            "attack": 1,
-            "health": 2,
-            "bone_cost": 3,
-            "rare": true,
-            "description": "This was the most annoying card to program."
-        },
-        {
-            "name": "Revenant",
-            "sigils": ["Brittle"],
-            "attack": 3,
-            "health": 1,
-            "bone_cost": 3
-        },
-        {
-            "name": "Sarcophagus",
-            "sigils": ["Fledgling"],
-            "attack": 0,
-            "health": 2,
-            "bone_cost": 4,
-            "evolution": "Mummy Lord"
-        },
-        {
-            "name": "Skeleton",
-            "sigils": ["Brittle"],
-            "attack": 1,
-            "health": 1,
-            "banned": true
-        },
-        {
-            "name": "Skelemagus",
-            "sigils": ["Brittle", "Gem Dependant"],
-            "attack": 4,
-            "health": 1,
-            "bone_cost": 3,
-            "description": "Nerfed again."
-        },
-        {
-            "name": "Tomb Robber",
-            "sigils": ["Disentomb (Corpses)"],
-            "attack": 0,
-            "health": 2,
-            "rare": true,
-            "active": true,
-            "description": "Note: Withered corpses have the Boneless sigil and will not drop bones.This change was made to prevent multiple infinite combos involving Tomb Robber."
-        },
-        {
-            "name": "Zombie",
-            "attack": 1,
-            "health": 1,
-            "bone_cost": 3,
-            "sigils": ["Stinky"],
-            "description": "This card was given the stinky sigil to differentiate it from Opossom. Suggested by FishGuy101."
-        },
-        {
-            "name": "Floating Eye",
-            "attack": 1,
-            "health": 3,
-            "bone_cost": 5,
-            "sigils": ["Airborne", "Sentry"],
-            "description": "Custom card by SYNTHIA_2000"
-        },
-        {
-            "name": "Gargoyle",
-            "attack": 1,
-            "health": 3,
-            "bone_cost": 3,
-            "sigils": ["Guardian", "Made of Stone"],
-            "description": "Custom card by syntaxevasion.\nLong overdue.",
+            "evolution": "Skeleton",
             "nosac": true
         },
         {
-            "name": "Skeleton Crew",
-            "attack": 2,
+            "name": "Skeleton",
+            "attack": 1,
             "health": 1,
             "sigils": ["Brittle"],
-            "bone_cost": 2
+            "banned": true
         },
         {
-            "name": "Zombie Parrot",
-            "attack": 2,
+            "name": "Gravedigger",
+            "bone_cost": 1,
+            "attack": 0,
             "health": 3,
+            "sigils": ["Bone Digger"]
+        },
+        {
+            "name": "Sporedigger",
+            "bone_cost": 1,
+            "attack": 0,
+            "health": 3,
+            "sigils": ["Bone Digger", "Bone Digger"],
+            "banned": true
+        },
+        {
+            "name": "Broken Obol 2",
+            "bone_cost": 2,
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Bone King"]
+        },
+        {
+            "name": "Ghost Ship",
+            "bone_cost": 2,
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Waterborne", "Skeleton Crew (Yarr)"]
+        },
+        {
+            "name": "Opossum",
+            "bone_cost": 2,
+            "attack": 1,
+            "health": 1
+        },
+        {
+            "name": "Skeleton Crew",
+            "bone_cost": 2,
+            "attack": 2,
+            "health": 1,
+            "sigils": ["Brittle"]
+        },
+        {
+            "name": "Skunk",
+            "bone_cost": 2,
+            "attack": 0,
+            "health": 3,
+            "sigils": ["Stinky"],
+            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
+        },
+        {
+            "name": "Banshee",
             "bone_cost": 3,
-            "sigils": ["Brittle", "Airborne"]
+            "attack": 1,
+            "health": 3,
+            "sigils": ["Airborne"]
+        },
+        {
+            "name": "Bone Lord's Horn",
+            "bone_cost": 3,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Bonehorn (1)"],
+            "active": true,
+            "rare": true,
+            "description": "Note: This card gives only 1 bone per 1 energy due to the previous effect being overpowered in combination with Bone Heap."
+        },
+        {
+            "name": "Broken Obol 1",
+            "bone_cost": 3,
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Sharp Quills"]
+        },
+        {
+            "name": "Gargoyle",
+            "bone_cost": 3,
+            "attack": 1,
+            "health": 3,
+            "sigils": ["Guardian", "Made of Stone"],
+            "nosac": true,
+            "description": "Custom card by syntaxevasion.\nLong overdue."
+        },
+        {
+            "name": "Necromancer",
+            "bone_cost": 3,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Double Death"],
+            "rare": true,
+            "description": "This was the most annoying card to program. When the king speaks, you listen"
+        },
+        {
+            "name": "Revenant",
+            "bone_cost": 3,
+            "attack": 3,
+            "health": 1,
+            "sigils": ["Brittle"]
+        },
+        {
+            "name": "Skelemagus",
+            "bone_cost": 3,
+            "attack": 4,
+            "health": 1,
+            "sigils": ["Brittle", "Gem Dependant"],
+            "description": "Nerfed again."
         },
         {
             "name": "Voodoo Doll",
+            "bone_cost": 3,
             "attack": 0,
             "health": 1,
-            "bone_cost": 3,
             "sigils": ["Acupuncture"],
             "active": true,
             "description": "Custom card and art by ener."
         },
         {
-            "name": "Gourmage",
-            "sigils": ["Enlarge"],
+            "name": "Zombie",
+            "bone_cost": 3,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Stinky"],
+            "description": "This card was given the stinky sigil to differentiate it from Opossom. Suggested by FishGuy101."
+        },
+        {
+            "name": "Zombie Parrot",
+            "bone_cost": 3,
+            "attack": 2,
+            "health": 3,
+            "sigils": ["Brittle", "Airborne"]
+        },
+        {
+            "name": "Bat",
+            "bone_cost": 4,
+            "attack": 2,
+            "health": 1,
+            "sigils": ["Airborne"]
+        },
+        {
+            "name": "Cockroach",
+            "bone_cost": 4,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Unkillable"],
+            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+        },
+        {
+            "name": "Corpse Maggots",
+            "bone_cost": 4,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Corpse Eater"]
+        },
+        {
+            "name": "Coyote",
+            "bone_cost": 4,
+            "attack": 2,
+            "health": 1
+        },
+        {
+            "name": "Drowned Soul",
+            "bone_cost": 4,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Waterborne", "Touch of Death"],
+            "rare": true
+        },
+        {
+            "name": "Long Elk",
+            "bone_cost": 4,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Sprinter", "Touch of Death"],
+            "sheds": "Vertebrae",
+            "rare": true
+        },
+        {
+            "name": "Vertebrae",
+            "attack": 0,
+            "health": 1,
+            "banned": true
+        },
+        {
+            "name": "Sarcophagus",
+            "bone_cost": 4,
             "attack": 0,
             "health": 2,
-            "mox_cost": ["Green"],
-            "active": true
+            "sigils": ["Fledgling"],
+            "evolution": "Mummy Lord"
+        },
+        {
+            "name": "Turkey Vulture",
+            "bone_cost": 8,
+            "attack": 3,
+            "health": 3,
+            "sigils": ["Airborne"],
+            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+        },
+        {
+            "name": "The Walkers",
+            "bone_cost": 4,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Bone King"]
+        },
+        {
+            "name": "Alpha",
+            "bone_cost": 5,
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Leader"]
+        },
+        {
+            "name": "Dead Hand",
+            "bone_cost": 5,
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Handy"],
+            "rare": true,
+            "description": "Note: Was made common due to lack of use.\nThen rare again."
+        },
+        {
+            "name": "Floating Eye",
+            "bone_cost": 5,
+            "attack": 1,
+            "health": 3,
+            "sigils": ["Airborne", "Sentry"],
+            "description": "Custom card by SYNTHIA_2000"
+        },
+        {
+            "name": "Frank & Stein",
+            "bone_cost": 5,
+            "attack": 2,
+            "health": 2,
+            "conduit": true
+        },
+        {
+            "name": "Pharaoh's Pets",
+            "bone_cost": 6,
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Worthy Sacrifice", "Many Lives"],
+            "rare": true,
+            "description": "Note: This card was made rare due to it's strength."
+        },
+        {
+            "name": "Rattler",
+            "bone_cost": 6,
+            "attack": 3,
+            "health": 1,
+            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+        },
+        {
+            "name": "Bonehound",
+            "bone_cost": 7,
+            "attack": 2,
+            "health": 3,
+            "sigils": ["Guardian"]
+        },
+        {
+            "name": "Mummy Lord",
+            "bone_cost": 8,
+            "attack": 3,
+            "health": 3
+        },
+        {
+            "name": "Headless Horseman",
+            "bone_cost": 13,
+            "attack": 5,
+            "health": 5,
+            "sigils": ["Airborne", "Sprinter"],
+            "rare": true
         },
         {
             "name": "Blue Mage",
-            "sigils": ["Mental Gemnastics"],
+            "mox_cost": ["Blue"],
             "attack": 0,
             "health": 1,
-            "mox_cost": ["Blue"],
+            "sigils": ["Mental Gemnastics"],
             "rare": true
         },
         {
             "name": "Blue Sporemage",
-            "sigils": ["Mental Gemnastics", "Mental Gemnastics"],
+            "mox_cost": ["Blue"],
             "attack": 0,
             "health": 1,
-            "mox_cost": ["Blue"],
+            "sigils": ["Mental Gemnastics", "Mental Gemnastics"],
             "banned": true
-        },
-        {
-            "name": "Hover Mage",
-            "sigils": ["Airborne"],
-            "attack": 1,
-            "health": 2,
-            "mox_cost": ["Blue"]
         },
         {
             "name": "Force Mage",
-            "sigils": ["Repulsive"],
+            "mox_cost": ["Blue"],
             "attack": 0,
             "health": 1,
-            "mox_cost": ["Blue"],
-            "description": "Dies to removal."
-        },
-        {
-            "name": "Gem Detonator",
-            "sigils": ["Gem Detonator (5)"],
-            "attack": 1,
-            "health": 2,
-            "energy_cost": 3
+            "sigils": ["Repulsive"],
+            "description": "Dies to detonator and sentry."
         },
         {
             "name": "Gem Fiend",
-            "sigils": ["Gem Dependant"],
+            "mox_cost": ["Blue"],
             "attack": 2,
             "health": 1,
-            "mox_cost": ["Blue"]
+            "sigils": ["Gem Dependant"]
         },
         {
-            "name": "Gem Guardian",
-            "sigils": ["Gem Guardian"],
+            "name": "Hover Mage",
+            "mox_cost": ["Blue"],
             "attack": 1,
             "health": 2,
-            "energy_cost": 3
-        },
-        {
-            "name": "Green Mage",
-            "attack": 0,
-            "health": 2,
-            "mox_cost": ["Green"],
-            "atkspecial": "mox",
-            "description": "This card's attack is equal to the number of \"Mox\" cards you possess."
-        },
-        {
-            "name": "Junior Sage",
-            "attack": 1,
-            "health": 2,
-            "mox_cost": ["Green"]
-        },
-        {
-            "name": "Mage Knight",
-            "sigils": ["Gem Dependant"],
-            "attack": 1,
-            "health": 3,
-            "mox_cost": ["Orange"]
-        },
-        {
-            "name": "Master Bleene",
-            "sigils": ["True Scholar"],
-            "attack": 0,
-            "health": 4,
-            "mox_cost": ["Green", "Blue"],
-            "rare": true,
-            "active": true
-        },
-        {
-            "name": "Master Goranj",
-            "sigils": ["Gem Dependant", "Bifurcated Strike"],
-            "attack": 2,
-            "health": 4,
-            "mox_cost": ["Green", "Orange"],
-            "rare": true,
-            "description": "He got buffed a while back. Thanks FishGuy101!"
-        },
-        {
-            "name": "Master Orlu",
-            "sigils": ["Airborne", "Looter"],
-            "attack": 1,
-            "health": 3,
-            "mox_cost": ["Orange", "Blue"],
-            "rare": true,
-            "description": "Note: Attack was increased to make it an acceptable rare card and to demonstrate its sigil effect more clearly."
-        },
-        {
-            "name": "Bleene's Mox",
-            "sigils": ["Blue Mox", "Green Mox"],
-            "attack": 0,
-            "health": 2,
-            "rare": true,
-            "nosac": true
-        },
-        {
-            "name": "Goranj's Mox",
-            "sigils": ["Green Mox", "Orange Mox"],
-            "attack": 0,
-            "health": 2,
-            "rare": true,
-            "nosac": true
-        },
-        {
-            "name": "Orlu's Mox",
-            "sigils": ["Orange Mox", "Blue Mox"],
-            "attack": 0,
-            "health": 2,
-            "rare": true,
-            "nosac": true
-        },
-        {
-            "name": "Emerald Mox",
-            "sigils": ["Green Mox"],
-            "attack": 0,
-            "health": 1,
-            "nosac": true,
-            "banned": true
-        },
-        {
-            "name": "Ruby Mox",
-            "sigils": ["Orange Mox"],
-            "attack": 0,
-            "health": 1,
-            "nosac": true,
-            "banned": true
-        },
-        {
-            "name": "Sapphire Mox",
-            "sigils": ["Blue Mox"],
-            "attack": 0,
-            "health": 1,
-            "nosac": true,
-            "banned": true
-        },
-        {
-            "name": "Magnus Mox",
-            "sigils": ["Great Mox"],
-            "attack": 0,
-            "health": 2,
-            "nosac": true,
-            "banned": true,
-            "rare": true
-        },
-        {
-            "name": "Muscle Mage",
-            "sigils": ["Hefty"],
-            "attack": 1,
-            "health": 2,
-            "mox_cost": ["Green"]
-        },
-        {
-            "name": "Orange Mage",
-            "sigils": ["Gem Animator"],
-            "attack": 0,
-            "health": 1,
-            "mox_cost": ["Orange"]
-        },
-        {
-            "name": "Practice Wizard",
-            "attack": 0,
-            "health": 3,
-            "sigils": ["Made of Stone"],
-            "mox_cost": ["Orange"]
-        },
-        {
-            "name": "Mage Pupil",
-            "sigils": ["Gem Dependant"],
-            "attack": 1,
-            "health": 1
-        },
-        {
-            "name": "Ruby Golem",
-            "sigils": ["Ruby Heart"],
-            "attack": 1,
-            "health": 1,
-            "mox_cost": ["Orange"],
-            "nosac": true
-        },
-        {
-            "name": "Stim Mage",
-            "sigils": ["Stimulate"],
-            "attack": 0,
-            "health": 2,
-            "mox_cost": ["Green"],
-            "active": true
-        },
-        {
-            "name": "Mox Tower",
-            "sigils": ["Sentry", "Orange Mox"],
-            "attack": 0,
-            "health": 2,
-            "mox_cost": ["Orange"],
-            "description": "Custom card by FishGuy101"
+            "sigils": ["Airborne"]
         },
         {
             "name": "Mox Bunker",
-            "sigils": ["Sharp Quills", "Blue Mox"],
-            "attack": 0,
-            "health": 2,
             "mox_cost": ["Blue"],
-            "description": "Custom Card by BishopAdams"
-        },
-        {
-            "name": "Mox Encampment",
-            "sigils": ["Stinky", "Green Mox"],
             "attack": 0,
             "health": 2,
-            "mox_cost": ["Green"],
+            "sigils": ["Sharp Quills", "Blue Mox"],
             "description": "Custom Card by BishopAdams"
         },
         {
             "name": "Thief Mage",
+            "mox_cost": ["Blue"],
             "attack": 1,
             "health": 1,
             "sigils": ["Side Hustle"],
-            "mox_cost": ["Blue"],
             "description": "Custom card by FishGuy101\nServed his sentence"
         },
         {
             "name": "Life Mage",
+            "bone_cost": 3,
+            "mox_cost": ["Blue"],
             "attack": 1,
             "health": 1,
             "sigils": ["Unkillable"],
-            "mox_cost": ["Blue"],
-            "bone_cost": 3,
             "description": "Custom card by FishGuy101"
         },
         {
-            "name": "Dragon Egg",
+            "name": "Bleene's Mox",
             "attack": 0,
             "health": 2,
-            "sigils": ["Fledgling", "Gem Dependant"],
-            "mox_cost": ["Orange"],
-            "evolution": "Ruby Dragon",
-            "description": "Custom card by FishGuy101.\nUpdated art by syntaxevasion"
+            "sigils": ["Blue Mox", "Green Mox"],
+            "nosac": true,
+            "rare": true
         },
         {
-            "name": "Ruby Dragon",
-            "attack": 2,
-            "health": 2,
-            "sigils": ["Bifurcated Strike", "Gem Dependant"],
-            "mox_cost": ["Orange"],
-            "banned": true
-        },
-        {
-            "name": "Shower Mage",
-            "mox_cost": ["Green"],
-            "sigils": ["Stinky"],
-            "attack": 1,
-            "health": 1,
-            "description": "Custom card by FishGuy101"
-        },
-        {
-            "name": "Holo Mox",
-            "mox_cost": ["Orange"],
-            "sigils": ["Armored"],
-            "energy_cost": 2,
+            "name": "Master Bleene",
+            "mox_cost": ["Blue", "Green"],
             "attack": 0,
-            "health": 1,
-            "description": "Custom card by FishGuy101"
-        },
-        {
-            "name": "Horse Mage",
-            "mox_cost": ["Orange"],
-            "blood_cost": 1,
-            "sigils": ["Sprinter"],
-            "attack": 2,
-            "health": 2,
-            "description": "How hungry?\n\nCustom card by ener"
-        },
-        {
-            "name": "Winged Guardian",
-            "mox_cost": ["Orange", "Blue"],
-            "attack": 1,
-            "health": 3,
-            "sigils": ["Airborne", "Mighty Leap"],
-            "description": "Custom card by Flare"
+            "health": 4,
+            "sigils": ["True Scholar"],
+            "active": true,
+            "rare": true
         },
         {
             "name": "Swift Sage",
-            "mox_cost": ["Green", "Blue"],
+            "mox_cost": ["Blue", "Green"],
             "attack": 1,
             "health": 2,
             "sigils": ["Sharp Quills", "Sprinter"],
             "description": "Custom card by Flare"
+        },
+        {
+            "name": "Gourmage",
+            "mox_cost": ["Green"],
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Enlarge"],
+            "active": true
+        },
+        {
+            "name": "Green Mage",
+            "mox_cost": ["Green"],
+            "attack": 0,
+            "atkspecial": "mox",
+            "health": 2,
+            "description": "This card's attack is equal to the number of \"Mox\" cards on your board."
+        },
+        {
+            "name": "Junior Sage",
+            "mox_cost": ["Green"],
+            "attack": 1,
+            "health": 2
+        },
+        {
+            "name": "Mox Encampment",
+            "mox_cost": ["Green"],
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Stinky", "Green Mox"],
+            "description": "Custom Card by BishopAdams"
+        },
+        {
+            "name": "Muscle Mage",
+            "mox_cost": ["Green"],
+            "attack": 1,
+            "health": 2,
+            "sigils": ["Hefty"]
+        },
+        {
+            "name": "Shower Mage",
+            "mox_cost": ["Green"],
+            "attack": 1,
+            "health": 1,
+            "sigils": ["Stinky"],
+            "description": "Custom card by FishGuy101"
+        },
+        {
+            "name": "Stim Mage",
+            "mox_cost": ["Green"],
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Stimulate"],
+            "active": true
         },
         {
             "name": "Dark Knight",
@@ -1535,124 +1556,109 @@
             "description": "Custom card by Flare"
         },
         {
-            "name": "Animox",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 2,
-            "sigils": ["Blue Mox", "Sprinter"],
-            "description": "Custom card by SYNTHIA_2000"
+            "name": "Master Goranj",
+            "mox_cost": ["Orange", "Green"],
+            "attack": 2,
+            "health": 4,
+            "sigils": ["Gem Dependant", "Bifurcated Strike"],
+            "rare": true,
+            "description": "He got buffed a while back. Thanks FishGuy101!"
         },
         {
-            "name": "Withered Corpse",
-            "sigils": ["Brittle", "Boneless"],
-            "attack": 1,
-            "health": 1,
+            "name": "Dragon Egg",
+            "mox_cost": ["Orange"],
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Fledgling", "Gem Dependant"],
+            "evolution": "Ruby Dragon",
+            "description": "Custom card by FishGuy101.\nUpdated art by syntaxevasion"
+        },
+        {
+            "name": "Ruby Dragon",
+            "mox_cost": ["Orange"],
+            "attack": 2,
+            "health": 2,
+            "sigils": ["Bifurcated Strike", "Gem Dependant"],
             "banned": true
         },
         {
-            "name": "Empty Vessel",
+            "name": "Mage Knight",
+            "mox_cost": ["Orange"],
+            "attack": 1,
+            "health": 3,
+            "sigils": ["Gem Dependant"]
+        },
+        {
+            "name": "Mox Tower",
+            "mox_cost": ["Orange"],
+            "attack": 0,
+            "health": 2,
+            "sigils": ["Sentry", "Orange Mox"],
+            "description": "Custom card by FishGuy101"
+        },
+        {
+            "name": "Orange Mage",
+            "mox_cost": ["Orange"],
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Gem Animator"]
+        },
+        {
+            "name": "Practice Wizard",
+            "mox_cost": ["Orange"],
             "attack": 0,
             "health": 3,
-            "energy_cost": 1,
-            "nosac": true,
-            "banned": true
+            "sigils": ["Made of Stone"]
         },
         {
-            "name": "Leaping Vessel",
-            "sigils": ["Mighty Leap"],
-            "attack": 0,
-            "health": 2,
-            "energy_cost": 2,
-            "nosac": true,
-            "banned": true
-        },
-        {
-            "name": "Energized Vessel",
-            "sigils": ["Battery Bearer"],
-            "attack": 0,
-            "health": 2,
-            "energy_cost": 2,
-            "nosac": true,
-            "banned": true
-        },
-        {
-            "name": "Bloody Vessel",
-            "sigils": ["Noble Sacrifice"],
-            "attack": 0,
-            "health": 2,
-            "energy_cost": 3,
-            "banned": true,
-            "description": "Note: Energy cost increased due to opponent not having enough time to build a board before bloody vessel is usable."
-        },
-        {
-            "name": "Splintered Vessel",
-            "sigils": ["Sharp Quills"],
-            "attack": 0,
-            "health": 2,
-            "energy_cost": 2,
-            "nosac": true,
-            "banned": true
-        },
-        {
-            "name": "Conductive Vessel",
-            "attack": 0,
-            "health": 2,
-            "energy_cost": 1,
-            "nosac": true,
-            "conduit": true,
-            "banned": true
-        },
-        {
-            "name": "Contaminated Vessel",
-            "sigils": ["Stinky"],
-            "attack": 0,
-            "health": 2,
-            "energy_cost": 2,
-            "nosac": true,
-            "banned": true
-        },
-        {
-            "name": "Geck",
+            "name": "Ruby Golem",
+            "mox_cost": ["Orange"],
             "attack": 1,
             "health": 1,
-            "rare": true,
-            "banned": true,
-            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
+            "sigils": ["Ruby Heart"],
+            "nosac": true
         },
         {
-            "name": "Acid Squirrel",
+            "name": "Ruby Mox",
             "attack": 0,
             "health": 1,
-            "sigils": ["Reconstitute", "Boneless"],
-            "banned": true,
-            "description": "Card and art by Mark.\nThe most broken card, hopefully no longer."
-        },
-        {
-            "name": "Shambling Cairn",
-            "attack": 0,
-            "health": 1,
-            "bone_cost": -1,
-            "sigils": ["Sprinter", "Bone Digger"],
+            "sigils": ["Orange Mox"],
             "nosac": true,
-            "banned": true,
-            "description": "Custom card by Garf, zpan0317, and Me!"
+            "banned": true
         },
         {
-            "name": "Moon Shard",
-            "sigils": ["Mighty Leap", "Made of Stone"],
-            "energy_cost": 6,
+            "name": "Horse Mage",
+            "mox_cost": ["Orange"],
+            "blood_cost": 1,
+            "sigils": ["Sprinter"],
+            "attack": 2,
+            "health": 2,
+            "description": "How hungry?\nCustom card by ener"
+        },
+        {
+            "name": "Holo Mox",
+            "energy_cost": 2,
+            "mox_cost": ["Orange"],
             "attack": 0,
-            "health": 5,
-            "nosac": false,
-            "description": "Emits a pale white light. You feel as though it calls to its brethren.",
-            "banned": true
+            "health": 1,
+            "sigils": ["Armored"],
+            "description": "Custom card by FishGuy101"
         },
         {
-            "name": "The Moon",
-            "sigils": ["Made of Stone"],
+            "name": "Master Orlu",
+            "mox_cost": ["Orange", "Blue"],
             "attack": 1,
-            "health": 40,
-            "banned": true
+            "health": 3,
+            "sigils": ["Airborne", "Looter"],
+            "rare": true
+        },
+        {
+            "name": "Winged Guardian",
+            "mox_cost": ["Orange", "Blue"],
+            "attack": 1,
+            "health": 3,
+            "sigils": ["Airborne", "Mighty Leap"],
+            "description": "Custom card by Flare"
         }
     ],
     "sigils": {
